@@ -10,7 +10,7 @@ node('built-in')
 	}
 	stage('continuous-deploy-master')
 	{
-	sh 'echo"hiiii"'
+	sh 'echo "hiiii"'
 	}
 
 }
