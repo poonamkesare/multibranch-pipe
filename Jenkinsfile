@@ -8,7 +8,8 @@ node('built-in')
 	{
     sh label: '', script: 'mvn package'
 	}
-	stage{('continuous-deploy-master')
+	stage('continuous-deploy-master')
+	{
 	sh 'echo"hiiii"'
 	}
 
